@@ -12,10 +12,10 @@ export const About = () => {
           <figure className="spotlight relative aspect-[4/3] w-full overflow-hidden rounded-[28px] border border-white/10 bg-coal shadow-glow">
             <MonoImage
               src={site.assets.documentary}
-              alt="Josh Jones in conversation with a client, black and white documentary photograph"
+              alt="Josh Jones seated at his desk"
               testId="about-documentary-image"
               label="Documentary"
-              position="50% 40%"
+              position="50% 50%"
             />
           </figure>
         </Reveal>

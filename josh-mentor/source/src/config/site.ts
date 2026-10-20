@@ -20,14 +20,14 @@ export const site = {
     bookingUrl: "",
   },
 
-  // DRAFT stand-ins. Swap for the approved portrait + documentary shot. Empty string = neutral placeholder block.
+  // Approved user-supplied media, hosted alongside the website.
   assets: {
     portrait:
-      "https://images.unsplash.com/photo-1539125530496-3ca408f9c2d9?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+      "./media/josh-at-work.webp",
     documentary:
-      "https://images.unsplash.com/photo-1631885627891-19651751251f?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
+      "./media/josh-at-work.webp",
     gymShots: [] as string[],
-    offerVideoUrl: "",
+    offerVideoUrl: "./media/josh-video-3.mp4",
   },
 
   brand: {

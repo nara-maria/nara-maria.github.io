@@ -7,6 +7,7 @@ import { WhoFor } from "@/components/site/WhoFor";
 import { Approach } from "@/components/site/Approach";
 import { Sprint } from "@/components/site/Sprint";
 import { Stories } from "@/components/site/Stories";
+import { FromJosh } from "@/components/site/FromJosh";
 import { About } from "@/components/site/About";
 import { Faq } from "@/components/site/Faq";
 import { FinalCta } from "@/components/site/FinalCta";
@@ -23,6 +24,7 @@ export default function App() {
         <WhoFor />
         <Approach />
         <Sprint />
+        <FromJosh />
         <Stories />
         <About />
         <Faq />

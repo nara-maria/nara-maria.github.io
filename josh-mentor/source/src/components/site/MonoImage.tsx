@@ -36,7 +36,7 @@ export const MonoImage = ({ src, alt, testId, label, className = "", position = 
         className={`h-full w-full object-cover ${useColorImages ? "" : "mono-img"}`}
       />
       <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-night/70 via-transparent to-transparent" />
-      {showDraftPlaceholders && (
+      {showDraftPlaceholders && !src.startsWith("./media/") && (
         <span
           data-testid={`${testId}-draft-tag`}
           className="absolute bottom-4 left-4 rounded-full glass-strong px-3 py-1 font-mono text-[10px] uppercase tracking-[0.2em] text-fog"
