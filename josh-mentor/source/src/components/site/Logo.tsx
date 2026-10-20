@@ -1,0 +1,13 @@
+export const Logo = ({ className = "h-6 w-6" }: { className?: string }) => (
+  <svg viewBox="0 0 64 64" className={className} aria-hidden fill="none">
+    <path
+      d="M26 14h8v26c0 7-4.5 11-11.5 11-3 0-5.5-.8-7.5-2.2l2.8-6.2c1.2.9 2.6 1.4 4 1.4 2.6 0 4.2-1.5 4.2-4.6V14z"
+      fill="currentColor"
+    />
+    <path
+      d="M44 14h8v22c0 5.5-2.6 8.6-7.6 9.6l-1.2-6.6c1.1-.5 1.8-1.4 1.8-3V14z"
+      fill="currentColor"
+      opacity=".5"
+    />
+  </svg>
+);
