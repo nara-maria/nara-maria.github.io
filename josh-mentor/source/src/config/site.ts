@@ -4,6 +4,8 @@ export type Story = {
   role: string;
   summary: string;
   videoUrl: string;
+  poster?: string;
+  duration?: string;
 };
 
 export const site = {
@@ -159,9 +161,9 @@ export const site = {
     emptyTitle: "Stories coming",
     emptyText: "Recorded with permission. Published when approved.",
     slots: [
-      { id: "s1", name: "", role: "Founder", summary: "", videoUrl: "" },
-      { id: "s2", name: "", role: "Sales director", summary: "", videoUrl: "" },
-      { id: "s3", name: "", role: "Self-employed", summary: "", videoUrl: "" },
+      { id: "s1", name: "", role: "Client testimonial · 01", summary: "", videoUrl: "./media/testimonial-1.mp4", poster: "./media/testimonial-1.jpg", duration: "1:04" },
+      { id: "s2", name: "", role: "Client testimonial · 02", summary: "", videoUrl: "./media/testimonial-2.mp4", poster: "./media/testimonial-2.jpg", duration: "0:58" },
+      { id: "s3", name: "", role: "Client testimonial · 03", summary: "", videoUrl: "./media/testimonial-3.mp4", poster: "./media/testimonial-3.jpg", duration: "0:49" },
     ] as Story[],
   },
 

@@ -16,3 +16,9 @@
 .josh-video-portrait .josh-video-screen { aspect-ratio:9/16; }
 @media(max-width:600px) { .josh-hero-video { margin-top:56px; } .josh-video-card { border-radius:20px; } .josh-supporting-videos { grid-template-columns:1fr; max-width:340px; gap:28px; } .josh-video-card figcaption { padding:14px 16px; } .josh-play-icon { width:58px; height:58px; } }
 @media(prefers-reduced-motion:reduce) { .josh-play-icon { transition:none; } }
+
+.josh-testimonials { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; max-width:1040px; margin:0 auto; align-items:start; }
+.josh-testimonials .josh-video-screen { aspect-ratio:11/18; }
+.josh-testimonials .josh-video-card figcaption { padding:16px; font-size:12px; }
+.josh-testimonial-summary { padding:18px 4px; color:#aaa; line-height:1.6; font-size:14px; }
+@media(max-width:700px) { .josh-testimonials { grid-template-columns:1fr; max-width:340px; gap:28px; } }
