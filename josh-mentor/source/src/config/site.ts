@@ -19,7 +19,7 @@ export const site = {
   links: {
     instagramUrl: "https://www.instagram.com/xjoshjonesx/",
     instagramDmUrl: "https://ig.me/m/xjoshjonesx",
-    bookingUrl: "",
+    bookingUrl: "https://calendly.com/josh-tdcgroup-kzhh/30min",
   },
 
   // Approved user-supplied media, hosted alongside the website.
@@ -35,8 +35,8 @@ export const site = {
   brand: {
     name: "Josh Jones",
     role: "Mentor",
-    location: "United Kingdom",
-    timezone: "GMT",
+    location: "Dubai, UAE",
+    timezone: "GST (UTC+4)",
   },
 
   nav: [
@@ -178,7 +178,7 @@ export const site = {
     facts: [
       { k: "Format", v: "1:1, weekly" },
       { k: "Length", v: "90 days" },
-      { k: "Based", v: "UK · GMT" },
+      { k: "Based", v: "Dubai · UTC+4" },
     ],
   },
 
